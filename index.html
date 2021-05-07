@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/plant.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page Using HTML, CSS & JS</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <h3>Brand Name</h3>
+            </div>
+            <ul class="nav-links">
+                <a href="#!"><li>Home</li></a>
+                <a href="#!"><li>Shop</li></a>
+                <a href="#!"><li>About Us</li></a>
+                <a href="#blog"><li>Blogs</li></a>
+                <a href="#!"><li>Contact Us</li></a>
+                <a href="#!"><li><i class="fa fa-search"></i></li></a>
+                <a href="#!"><li><i class="fa fa-shopping-bag"></i></li></a>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="left-side">
+                <img src="assets/plant.png" alt="">
+            </div>
+            <div class="right-side">
+                <h1><span id="create">decorate your home with us</span></h1>
+                <p><span id="create">Moving into a new home can be one of life’s great joys, but it can also be a time of uncertainty, 
+                    especially when it comes to decorating.
+                    <br>
+                    <br>
+                    <a href="#!"></a><button class="btn">Shop now</button></a>
+                </span></p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="products-section">
+            <h1>Featured Products</h1>
+            <p>Featured collections would be a list curated by you - likely to display on your home page - 
+                to drive traffic to your current priorities. Collection list would be all of the collections in your store.
+            </p>
+            <div class="products-grid">
+                <div class="product-item">
+                    <img src="assets/1.png" alt="">
+                    <br>
+                    <h2>Blue Comfortable Sofa Chair</h2>
+                    <span>Price - Rs. 1499/-</span>
+                </div>
+                <div class="product-item">
+                    <img src="assets/2.png" alt="">
+                    <br>
+                    <h2>Brown Comfortable Egg Chair</h2>
+                    <span>Price - Rs. 1499/-</span>
+                </div>
+                <div class="product-item">
+                    <img src="assets/3.png" alt="">
+                    <br>
+                    <h2>Comfortable Balcony Chair</h2>
+                    <span>Price - Rs. 1499/-</span>
+                </div>
+                <div class="product-item">
+                    <img src="assets/4.png" alt="">
+                    <br>
+                    <h2>Brown Night Lamp</h2>
+                    <span>Price - Rs. 1499/-</span>
+                </div>
+                <div class="product-item">
+                    <img src="assets/5.png" alt="">
+                    <br>
+                    <h2>Folding Table</h2>
+                    <span>Price - Rs. 1499/-</span>
+                </div>
+                <div class="product-item">
+                    <img src="assets/6.png" alt="">
+                    <br>
+                    <h2>Spaced Drawers</h2>
+                    <span>Price - Rs. 1499/-</span>
+                </div>
+            </div>
+        </div>
+        <div class="offer-parallax">
+            <div class="offer">
+                <h1>Best Offer</h1>
+                <p>Get the limited time offer this summer. Don't miss out this changed!</p>
+                <br>
+                <div id="demo"></div>
+                <div class="time-flex">
+                    <div class="time-flex-inner">
+                        <div id="days"></div>
+                            Days
+                        </div>
+                        <div class="time-flex-inner">
+                            <div id="hours"></div>
+                            Hours
+                        </div>
+                        <div class="time-flex-inner">
+                            <div id="minutes"></div>
+                            Minutes
+                        </div>
+                        <div class="time-flex-inner">
+                            <div id="seconds"></div>
+                            Seconds
+                        </div>
+                </div> 
+            </div>
+        </div>
+        <div class="blogs" id="blog">
+            <h1>Read Blogs</h1>
+            <div class="grid-flex">
+                <div class="column column-image" style="background-image: url('assets/left.jpg');">
+                </div>
+                <div class="column column-right">
+                  <div class="align-item">
+                    <h2>Sofa Cum Bed</h2>
+                    <br>
+                    <p>&ldquo;
+                        Designer’s team has done focused research on sofa-cum-bed and how it can be useful for families in the longer run.
+                        We have designed a unique range of this type of furniture. The range offers great…
+                    </p>
+                    <br>
+                    <button class="btn-two">Read More</button>
+                    <br>
+                    <br>
+                  </div>
+                </div>
+            </div>
+            <div class="grid-flex">
+                <div class="column column-image" style="background-image: url('assets/right.jpg');">
+                  &nbsp;
+                </div>
+                <div class="column column-left">
+                  <div class="align-item">
+                    <h2>Luxurious Dining Table</h2>
+                    <br>
+                    <p>&ldquo;
+                        Designer’s team has done focused research on comfortable cello chairs and how it can be useful for families in the longer run.
+                        We have designed a unique range of this type of furniture. The range offers great…
+                    </p>
+                    <br>
+                    <button class="btn-two">Read More</button>
+                    <br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="newsletter-parallax">
+           <div class="news">
+            <h1>Join our newsletter now</h1>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="button" name="button" id="button" value="Subscribe">
+           </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-item">
+                <div class="logo">
+                    <h3>Brand Name</h3>
+                </div>
+                <br>
+                <p>Moving into a new home can be one of life’s great joys, but it can also be a time of uncertainty, 
+                    especially when it comes to decorating.
+                </p>
+            </div>
+            <div class="footer-item">
+                <div class="logo">
+                    <h3>Useful Links</h3>
+                </div>
+                <br>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>Wishlist</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="logo">
+                    <h3>Privacy Links</h3>
+                </div>
+                <br>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Return Policy</li>
+                    <li>Exchange Policy</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="logo">
+                    <h3>Contact Links</h3>
+                </div>
+                <br>
+                <ul>
+                    <li>Write to us</li>
+                    <li>Follow on Instagram</li>
+                    <li>Follow on Twitter</li>
+                    <li>Follow on LinkedIn</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="copy">All Rights Reserved &copy;Brand Name 2021</div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script>
+        gsap.to("#create", {y: '0%', duration:0.7, stagger:0.2});
+        if(window. innerWidth >= 768){
+            gsap.from('.nav', {opacity: 0, duration: 1, delay:1, y: -30});
+        }
+
+        var tl = gsap.timeline();
+        tl.from('.left-side', {duration: 1.5, translateY: 50, opacity: 0});
+        tl.to('img', {clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)"}, "-=1.1");
+
+        // Set the date we're counting down to
+        var countDownDate = new Date("May 1, 2021 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "Offer Finished";
+        }
+        }, 1000);
+    </script>
+</body>
+</html>
